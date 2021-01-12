@@ -1,0 +1,40 @@
+{
+    "scoreCards": [
+        {
+            "id": 1,
+            "round1": {
+                "forks": 5,
+                "knives": 9,
+                "spoons": 2
+            },
+            "round2": {
+                "forks": 5,
+                "knives": 9,
+                "spoons": 2
+            },
+            "round3": {
+                "forks": 5,
+                "knives": 9,
+                "spoons": 2
+            }
+        },
+        {
+            "id": 2,
+            "round1": {
+                "forks": 2,
+                "knives": 8,
+                "spoons": 6
+            },
+            "round2": {
+                "forks": 4,
+                "knives": 8,
+                "spoons": 2
+            },
+            "round3": {
+                "forks": 5,
+                "knives": 9,
+                "spoons": 2
+            }
+        }
+    ]
+}
