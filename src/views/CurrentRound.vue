@@ -1,6 +1,8 @@
 <template>
   <div class="current-round">
-    <ScoreCard></ScoreCard>
+    <div class="score-card-container">
+      <ScoreCard></ScoreCard>
+    </div>
   </div>
 </template>
 
@@ -11,6 +13,16 @@ export default {
   name: 'CurrentRound',
   components: {
     ScoreCard
-  }
+  },
 }
 </script>
+
+<style lang="scss">
+
+.current-round {
+  display: flex;
+  justify-content: center;
+
+}
+
+</style>

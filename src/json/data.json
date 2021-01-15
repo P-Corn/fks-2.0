@@ -1,7 +1,6 @@
 {
     "scoreCards": [
         {
-            "id": 1,
             "round1": {
                 "forks": 5,
                 "knives": 9,
@@ -19,9 +18,8 @@
             }
         },
         {
-            "id": 2,
             "round1": {
-                "forks": 2,
+                "forks": 3,
                 "knives": 8,
                 "spoons": 6
             },

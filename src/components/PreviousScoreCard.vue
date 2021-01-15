@@ -29,16 +29,24 @@ import json from '../json/data.json'
 
 export default {
 
-  name: 'ScoreCard',
+  name: 'PreviousScoreCard',
+  props: {
+      id: Number
+  },
   data: () => ({
       jsonData: json,
+      uniqueId: 0,
+      currentGame: null
   }),
-  computed: {
-      currentGame: () => json.scoreCards[json.scoreCards.length - 1]
+  created() {
+      this.uniqueId = this.id;
+      this.getCurrentGame();
   },
   methods: {
-
-  }
+      getCurrentGame() {
+          this.currentGame = json.scoreCards[this.uniqueId]
+          }
+  },
 }
 </script>
 
